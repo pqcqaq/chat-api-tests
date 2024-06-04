@@ -1,0 +1,21 @@
+{
+    "prompt1": {
+        "in_token": 9,
+        "out_token": 48,
+        "take_time": 1428.0,
+        "success_count": 10,
+        "failure_count": 0
+    },
+    "prompt2": {
+        "in_token": 30,
+        "out_token": 371,
+        "take_time": 7860.0,
+        "success_count": 10,
+        "failure_count": 0
+    },
+    "total_tests": 2,
+    "test_round": 10,
+    "total_taken_time": 92891.72530174255,
+    "total_success": 20,
+    "total_failures": 0
+}

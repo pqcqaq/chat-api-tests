@@ -1,0 +1,127 @@
+{
+    "thread1": {
+        "in_token": 9,
+        "out_token": 57,
+        "take_time": 1631.892204284668,
+        "success": true
+    },
+    "thread2": {
+        "in_token": 9,
+        "out_token": 57,
+        "take_time": 3240.828275680542,
+        "success": true
+    },
+    "thread3": {
+        "in_token": 9,
+        "out_token": 65,
+        "take_time": 5030.242443084717,
+        "success": true
+    },
+    "thread4": {
+        "in_token": 9,
+        "out_token": 57,
+        "take_time": 6627.507925033569,
+        "success": true
+    },
+    "thread5": {
+        "in_token": 9,
+        "out_token": 27,
+        "take_time": 7456.3117027282715,
+        "success": true
+    },
+    "thread6": {
+        "in_token": 9,
+        "out_token": 27,
+        "take_time": 6652.419090270996,
+        "success": true
+    },
+    "thread7": {
+        "in_token": 9,
+        "out_token": 57,
+        "take_time": 6647.018671035767,
+        "success": true
+    },
+    "thread8": {
+        "in_token": 9,
+        "out_token": 57,
+        "take_time": 6460.753440856934,
+        "success": true
+    },
+    "thread9": {
+        "in_token": 9,
+        "out_token": 57,
+        "take_time": 6469.599962234497,
+        "success": true
+    },
+    "thread10": {
+        "in_token": 9,
+        "out_token": 61,
+        "take_time": 7289.736747741699,
+        "success": true
+    },
+    "thread11": {
+        "in_token": 30,
+        "out_token": 243,
+        "take_time": 11804.713249206543,
+        "success": true
+    },
+    "thread12": {
+        "in_token": 30,
+        "out_token": 543,
+        "take_time": 21390.873193740845,
+        "success": true
+    },
+    "thread13": {
+        "in_token": 30,
+        "out_token": 281,
+        "take_time": 26080.512285232544,
+        "success": true
+    },
+    "thread14": {
+        "in_token": 30,
+        "out_token": 426,
+        "take_time": 33425.575733184814,
+        "success": true
+    },
+    "thread15": {
+        "in_token": 30,
+        "out_token": 174,
+        "take_time": 35687.604665756226,
+        "success": true
+    },
+    "thread16": {
+        "in_token": 30,
+        "out_token": 632,
+        "take_time": 44312.89768218994,
+        "success": true
+    },
+    "thread17": {
+        "in_token": 30,
+        "out_token": 460,
+        "take_time": 42630.84650039673,
+        "success": true
+    },
+    "thread18": {
+        "in_token": 30,
+        "out_token": 193,
+        "take_time": 40495.08500099182,
+        "success": true
+    },
+    "thread19": {
+        "in_token": 30,
+        "out_token": 155,
+        "take_time": 34775.79569816589,
+        "success": true
+    },
+    "thread20": {
+        "in_token": 30,
+        "out_token": 630,
+        "take_time": 44878.4761428833,
+        "success": true
+    },
+    "total_tests": 2,
+    "test_round": 1,
+    "total_taken_time": 392988.6906147003,
+    "total_success": 20,
+    "total_failures": 0
+}

@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "\u6211\u662f\u901a\u4e49\u5343\u95ee\uff0c\u7531\u963f\u91cc\u4e91\u5f00\u53d1\u7684AI\u52a9\u624b\u3002\u6211\u53ef\u4ee5\u56de\u7b54\u5404\u79cd\u95ee\u9898\u3001\u63d0\u4f9b\u4fe1\u606f\u548c\u4e0e\u7528\u6237\u8fdb\u884c\u5bf9\u8bdd\u3002\u6709\u4ec0\u4e48\u6211\u53ef\u4ee5\u5e2e\u52a9\u4f60\u7684\u5417\uff1f"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717506472
+}
