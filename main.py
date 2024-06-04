@@ -46,7 +46,7 @@ def call_api(prompt, thread_name, i, j):
         out_token = count_response_tokens(response_json)
         # 将结果输出到文件
         with open(f'results/{thread_name}_prompt{i + 1}_round{j + 1}.json', 'w', encoding='utf-8') as f:
-            json.dump(response_json, f, indent=4)
+            json.dump(response_json, f, indent=4, ensure_ascii=False)
         return response_time, out_token, True
     except requests.exceptions.RequestException as e:
         print(f"API call failed for prompt '{prompt}': {e}")
@@ -100,7 +100,7 @@ def test_single_thread(prompts, test_rounds):
     results["total_failures"] = total_failures
 
     with open('result.json', 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=4)
+        json.dump(results, f, indent=4, ensure_ascii=False)
     print("Single-thread test completed!")
 
 
@@ -115,7 +115,7 @@ def call_api_concurrent(prompt, thread_name, i, j):
         out_token = count_response_tokens(response_json)
         # 将结果输出到文件
         with open(f'results/{thread_name}_prompt{i + 1}_round{j + 1}.json', 'w', encoding='utf-8') as f:
-            json.dump(response_json, f, indent=4)
+            json.dump(response_json, f, indent=4, ensure_ascii=False)
         return response_time, out_token, True
     except requests.exceptions.RequestException as e:
         print(f"API call failed for prompt '{prompt}': {e}")
@@ -160,7 +160,7 @@ def test_concurrent(prompts, concurrency_level):
     results["total_failures"] = total_failures
 
     with open('concurrent_result.json', 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=4)
+        json.dump(results, f, indent=4, ensure_ascii=False)
     print("Concurrent test completed!")
 
 
