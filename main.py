@@ -5,6 +5,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import copy
 import tiktoken
 
+from graph import plot_prompt_analysis
+
 # 替换为你的API URL和API KEY
 API_URL = 'http://pool.zjuici.com:21510/chatglm3/v1/chat/completions'
 API_KEY = 'your-api-key'
@@ -70,10 +72,13 @@ def test_single_thread(prompts, test_rounds):
             "out_token": 0,
             "take_time": 0,
             "success_count": 0,
-            "failure_count": 0
+            "failure_count": 0,
+            "max_response_time_diff": 0
         }
         total_time = 0
         total_out_token = 0
+        max_time = float('-inf')
+        min_time = float('inf')
 
         for j in range(test_rounds):
             response_time, out_token, success = call_api(prompt, "single-thread", i, j)
@@ -85,10 +90,17 @@ def test_single_thread(prompts, test_rounds):
             else:
                 prompt_results["failure_count"] += 1
                 total_failures += 1
+
+            if response_time > max_time:
+                max_time = response_time
+            if response_time < min_time:
+                min_time = response_time
+
             print(f"Test {i + 1}, Round {j + 1}: {response_time:.2f}ms, {out_token} tokens, Success: {success}")
 
         prompt_results["out_token"] = total_out_token // test_rounds if prompt_results["success_count"] > 0 else 0
         prompt_results["take_time"] = total_time // test_rounds if prompt_results["success_count"] > 0 else 0
+        prompt_results["max_response_time_diff"] = max_time - min_time if prompt_results["success_count"] > 0 else 0
 
         results[f"prompt{i + 1}"] = prompt_results
         total_taken_time += total_time
@@ -102,7 +114,6 @@ def test_single_thread(prompts, test_rounds):
     with open('result.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
     print("Single-thread test completed!")
-
 
 def call_api_concurrent(prompt, thread_name, i, j):
     start_time = time.time()
@@ -173,6 +184,7 @@ if __name__ == "__main__":
     test_rounds = 10
     test_single_thread(prompts, test_rounds)
 
-    # 测试并发
-    concurrency_level = 5
-    test_concurrent(prompts, concurrency_level)
+    # # 测试并发
+    # concurrency_level = 5
+    # test_concurrent(prompts, concurrency_level)
+    plot_prompt_analysis('result.json')

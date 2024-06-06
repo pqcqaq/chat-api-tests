@@ -1,21 +1,79 @@
 {
     "prompt1": {
-        "in_token": 9,
-        "out_token": 43,
-        "take_time": 3928.0,
+        "in_token": 20,
+        "out_token": 175,
+        "take_time": 3801.0,
         "success_count": 10,
-        "failure_count": 0
+        "failure_count": 0,
+        "max_response_time_diff": 1973.4268188476562
     },
     "prompt2": {
-        "in_token": 30,
-        "out_token": 301,
-        "take_time": 6507.0,
+        "in_token": 33,
+        "out_token": 671,
+        "take_time": 15534.0,
         "success_count": 10,
-        "failure_count": 0
+        "failure_count": 0,
+        "max_response_time_diff": 4925.989151000977
     },
-    "total_tests": 2,
+    "prompt3": {
+        "in_token": 26,
+        "out_token": 223,
+        "take_time": 5377.0,
+        "success_count": 10,
+        "failure_count": 0,
+        "max_response_time_diff": 8322.946786880493
+    },
+    "prompt4": {
+        "in_token": 29,
+        "out_token": 226,
+        "take_time": 4892.0,
+        "success_count": 10,
+        "failure_count": 0,
+        "max_response_time_diff": 4514.644622802734
+    },
+    "prompt5": {
+        "in_token": 29,
+        "out_token": 222,
+        "take_time": 5298.0,
+        "success_count": 10,
+        "failure_count": 0,
+        "max_response_time_diff": 2688.109874725342
+    },
+    "prompt6": {
+        "in_token": 305,
+        "out_token": 445,
+        "take_time": 9851.0,
+        "success_count": 10,
+        "failure_count": 0,
+        "max_response_time_diff": 4850.494623184204
+    },
+    "prompt7": {
+        "in_token": 374,
+        "out_token": 477,
+        "take_time": 10058.0,
+        "success_count": 10,
+        "failure_count": 0,
+        "max_response_time_diff": 6081.959962844849
+    },
+    "prompt8": {
+        "in_token": 493,
+        "out_token": 854,
+        "take_time": 18144.0,
+        "success_count": 10,
+        "failure_count": 0,
+        "max_response_time_diff": 11253.998756408691
+    },
+    "prompt9": {
+        "in_token": 589,
+        "out_token": 679,
+        "take_time": 15200.0,
+        "success_count": 10,
+        "failure_count": 0,
+        "max_response_time_diff": 4560.818910598755
+    },
+    "total_tests": 9,
     "test_round": 10,
-    "total_taken_time": 104354.40707206726,
-    "total_success": 20,
+    "total_taken_time": 881615.211725235,
+    "total_success": 90,
     "total_failures": 0
 }
