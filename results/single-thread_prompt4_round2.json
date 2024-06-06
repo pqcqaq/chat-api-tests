@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "全球化使世界的文化更加丰富多彩，但同时也带来了文化同质化和文化冲突等问题。为了保护和促进文化多样性，我们可以采取以下措施：鼓励多元文化交流，尊重和保护各民族文化遗产，支持本土文化产业的发展，加强国际文化合作等。"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717636038
+}

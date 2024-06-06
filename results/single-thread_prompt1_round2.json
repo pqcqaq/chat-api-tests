@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "人工智能的未来发展将会是多方面的，从技术上来说，深度学习和机器学习将继续推动AI的发展；从应用方面来看，AI将更多地被应用于智能汽车、医疗保健等领域，并将能够更准确地预测未来的趋势。此外，AI也将被用于提高人类的工作效率，减少工作中的重复劳动，提升生产率，以及改善人们的日常生活。"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717635788
+}

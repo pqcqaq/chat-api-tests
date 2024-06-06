@@ -1,6 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 import pandas as pd
+from datetime import datetime
 
 
 def plot_prompt_analysis(json_filepath):
@@ -52,6 +53,12 @@ def plot_prompt_analysis(json_filepath):
 
     plt.title('Prompt Analysis: Input Tokens, Output Tokens, and Response Time')
     plt.grid(True)
+
+    # 获取当前时间并格式化为字符串
+    current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
+    # 保存图片
+    plt.savefig(f'prompt_analysis_{current_time}.png')
+
     plt.show()
 
 

@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "人工智能在未来的发展趋势将主要分为三个方面：首先，机器学习和深度学习技术将继续发展，并应用于更多的领域；其次，自然语言处理技术将会得到更大的发展，能够更好地理解人类语言；最后，机器人技术也将继续发展，未来可能会有更多具有自主意识的机器人出现。"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717635799
+}

@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "大数据技术是一种用于收集、处理和分析海量数据的技术，其基本原理是通过分布式计算和存储来快速地处理大规模数据，并从中提取出有价值的信息。它在商业中的应用非常广泛，例如可以通过大数据技术来挖掘客户的消费习惯，改善产品质量和服务质量，提升营销效果等。"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717636015
+}
