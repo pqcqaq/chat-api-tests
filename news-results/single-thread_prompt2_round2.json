@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "['财经', '实体经济', '薪资待遇']"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717664164
+}

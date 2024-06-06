@@ -1,79 +1,79 @@
 {
     "prompt1": {
         "in_token": 20,
-        "out_token": 175,
-        "take_time": 3801.0,
+        "out_token": 162,
+        "take_time": 6159.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 1973.4268188476562
+        "max_response_time_diff": 2731.8782806396484
     },
     "prompt2": {
         "in_token": 33,
-        "out_token": 671,
-        "take_time": 15534.0,
+        "out_token": 426,
+        "take_time": 15614.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 4925.989151000977
+        "max_response_time_diff": 12397.862434387207
     },
     "prompt3": {
         "in_token": 26,
-        "out_token": 223,
-        "take_time": 5377.0,
+        "out_token": 188,
+        "take_time": 7686.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 8322.946786880493
+        "max_response_time_diff": 4592.003345489502
     },
     "prompt4": {
         "in_token": 29,
-        "out_token": 226,
-        "take_time": 4892.0,
+        "out_token": 231,
+        "take_time": 8470.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 4514.644622802734
+        "max_response_time_diff": 9673.864841461182
     },
     "prompt5": {
         "in_token": 29,
-        "out_token": 222,
-        "take_time": 5298.0,
+        "out_token": 220,
+        "take_time": 8821.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 2688.109874725342
+        "max_response_time_diff": 8534.224271774292
     },
     "prompt6": {
         "in_token": 305,
-        "out_token": 445,
-        "take_time": 9851.0,
+        "out_token": 438,
+        "take_time": 16653.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 4850.494623184204
+        "max_response_time_diff": 9231.739044189453
     },
     "prompt7": {
         "in_token": 374,
-        "out_token": 477,
-        "take_time": 10058.0,
+        "out_token": 471,
+        "take_time": 17283.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 6081.959962844849
+        "max_response_time_diff": 6798.634052276611
     },
     "prompt8": {
         "in_token": 493,
-        "out_token": 854,
-        "take_time": 18144.0,
+        "out_token": 729,
+        "take_time": 28470.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 11253.998756408691
+        "max_response_time_diff": 22153.202295303345
     },
     "prompt9": {
         "in_token": 589,
-        "out_token": 679,
-        "take_time": 15200.0,
+        "out_token": 664,
+        "take_time": 26724.0,
         "success_count": 10,
         "failure_count": 0,
-        "max_response_time_diff": 4560.818910598755
+        "max_response_time_diff": 12205.891370773315
     },
     "total_tests": 9,
     "test_round": 10,
-    "total_taken_time": 881615.211725235,
+    "total_taken_time": 1358844.4526195526,
     "total_success": 90,
     "total_failures": 0
 }

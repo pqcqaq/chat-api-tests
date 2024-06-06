@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "抱歉，我无法直接根据您提供的信息分析新闻。请提供新闻的具体内容，我会尽力帮您进行分类和分析。"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717664173
+}

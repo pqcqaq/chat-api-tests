@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "`['财经', '财政', '审计']`"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717664170
+}

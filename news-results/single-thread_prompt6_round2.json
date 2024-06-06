@@ -1,0 +1,15 @@
+{
+    "model": "chatglm3-6b",
+    "object": "chat.completion",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "很抱歉，我无法完成这个任务，因为我是一个语言模型，不能直接解析和操作文本数据。我可以帮助你回答问题或者提供一些信息，但是我无法执行编程任务。如果你有任何问题或需要帮助，请随时告诉我。"
+            },
+            "finish_reason": "stop"
+        }
+    ],
+    "created": 1717664197
+}
