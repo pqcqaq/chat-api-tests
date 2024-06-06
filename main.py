@@ -8,7 +8,7 @@ import tiktoken
 from graph import plot_prompt_analysis
 
 # 替换为你的API URL和API KEY
-API_URL = 'http://localhost:8000'
+API_URL = 'http://127.0.0.1:8000'
 API_KEY = 'your-api-key'
 HEADERS = {'Authorization': f'Bearer {API_KEY}'}
 
